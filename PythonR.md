@@ -216,7 +216,7 @@ py_eval("r.mtcars.describe()")
     ## 
     ## [8 rows x 11 columns]
 
-<br/> We can also use Python graphing libraries.
+We can also use Python graphing libraries.
 
 ``` python
 #Python
@@ -227,7 +227,7 @@ sns.distplot(r.mtcars.mpg).set_title("Fuel efficiency")
 ```
 
 <img src="PythonR_files/figure-markdown_github/unnamed-chunk-7-1.png" width="672" />
-<br/> <br/> <h2>Working with dictionaries</h2> <br/>
+<br/> <br/> <h3>Working with dictionaries</h3> <br/>
 Accessing the keys and values of a Python dictionary from R can be
 confusing at first. This is because Python dictionaries become named
 lists in R.
