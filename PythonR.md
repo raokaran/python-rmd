@@ -273,7 +273,7 @@ print(reticulate::dict(py$cc)$keys())
 <h3>Miscellaneous</h3> 
 Other packages that allow you to run Python code from within R are:
 
-
+/
 [rJython](https://r-forge.r-project.org/projects/rjython/)
 
 [rPython](https://cran.r-project.org/web/packages/rPython/index.html)
@@ -293,10 +293,7 @@ the objects you create are persistent and can be accessed with the usual
 This also belongs to the `reticulate` package.
 
 <h3>Limitations and troubleshooting</h3> 
-``` r
 
-
-```
 In older versions of RStudio (before 1.2.1114), running Python chunks directly in
 the IDE to see output is not supported - they can only be run while
 knitting. To check if your output works, you can use `repl_python()` as
