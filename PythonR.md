@@ -296,6 +296,7 @@ clears up issues related to loading the right Python environments and
 newly installed Python libraries. <br/>
 
 <h3>Sources</h3> 
+
 [Reticulate on RStudio's GitHub page](https://rstudio.github.io/reticulate/)
 
 [Reticulate vignettes](https://cran.r-project.org/web/packages/reticulate/vignettes/calling_python.html)  
