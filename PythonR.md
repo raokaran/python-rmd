@@ -168,8 +168,7 @@ None, True, False
 </tr>
 </tbody>
 </table>
-<font size="1">Table source:
-<https://cran.r-project.org/web/packages/reticulate/vignettes/calling_python.html></font>
+<font size="1">Table source: https://cran.r-project.org/web/packages/reticulate/vignettes/calling_python.html</font>
 <br/> <br/> If all you need is a couple of lines of Python (or you're
 writing an R script instead of Markdown), an alternative is the
 `py_run_string()` function, or the mostly equivalent `py_eval()`.
