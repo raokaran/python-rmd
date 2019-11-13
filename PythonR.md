@@ -231,7 +231,7 @@ sns.distplot(r.mtcars.mpg).set_title("Fuel efficiency")
 Accessing the keys and values of a Python dictionary from R can be
 confusing at first. This is because Python dictionaries become named
 lists in R.
-<br/>
+
 ``` python
 #Python
 cc = {"course":"edav", "year":2019}
