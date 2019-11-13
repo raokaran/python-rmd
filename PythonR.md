@@ -273,7 +273,7 @@ print(reticulate::dict(py$cc)$keys())
 <h3>Miscellaneous</h3> 
 Other packages that allow you to run Python code from within R are:
 
-/
+
 [rJython](https://r-forge.r-project.org/projects/rjython/)
 
 [rPython](https://cran.r-project.org/web/packages/rPython/index.html)
