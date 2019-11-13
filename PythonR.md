@@ -281,8 +281,13 @@ the objects you create are persistent and can be accessed with the usual
 `py$` later. Type `exit` to return to the R console when you're done.
 This also belongs to the `reticulate` package.
 
-<h3>Limitations and troubleshooting</h3> In older
-versions of RStudio (before 1.2.1114), running Python chunks directly in
+``` r
+
+
+```
+
+<h3>Limitations and troubleshooting</h3> 
+In older versions of RStudio (before 1.2.1114), running Python chunks directly in
 the IDE to see output is not supported - they can only be run while
 knitting. To check if your output works, you can use `repl_python()` as
 a workaround. You can also put your code in `py_run_string()` in an R
@@ -292,12 +297,21 @@ newly installed Python libraries. <br/>
 
 <h3>Sources</h3> 
 [Reticulate on RStudio's GitHub page](https://rstudio.github.io/reticulate/)
+
 [Reticulate vignettes](https://cran.r-project.org/web/packages/reticulate/vignettes/calling_python.html)  
+
 [InfoWorld - How to run Python in R](https://www.infoworld.com/article/3340120/how-to-run-python-in-r.html)  
+
 [Running Python from R with Reticulate by Len Kiefer](http://lenkiefer.com/2019/01/28/running-python-from-r-with-reticulate/)  
+
 [From ‘R vs Python’ to ‘R and Python’ - Towards Data Science](https://towardsdatascience.com/from-r-vs-python-to-r-and-python-aa25db33ce17)  
+
 [Snakes in a Package](https://www.mango-solutions.com/blog/snakes-in-a-package-combining-python-and-r-with-reticulate)  
-[R Markdown: The Definitive Guide by Xie, Allaire & Grolemund](https://bookdown.org/yihui/rmarkdown/language-engines.html#python)  
+
+[R Markdown: The Definitive Guide by Xie, Allaire & Grolemund](https://bookdown.org/yihui/rmarkdown/language-engines.html#python)
+
 [Listen Data - Run Python from R](https://www.listendata.com/2018/03/run-python-from-r.html)  
+
 [StackOverflow - calling Python methods from R](https://stackoverflow.com/questions/51108722/how-to-call-python-method-from-r-reticulate)  
+
 [StackOverflow - running Python chunks in RStudio](https://stackoverflow.com/questions/49503195/reticulate-running-python-chunks-in-rmarkdown)
