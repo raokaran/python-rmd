@@ -168,10 +168,10 @@ None, True, False
 </tr>
 </tbody>
 </table>
-<font size="1">Table source:https://cran.r-project.org/web/packages/reticulate/vignettes/calling_python.html</font>
+<h5>Table source: https://cran.r-project.org/web/packages/reticulate/vignettes/calling_python.html</h5>
 <br/> <br/> If all you need is a couple of lines of Python (or you're
 writing an R script instead of Markdown), an alternative is the
-`py_run_string()` function, or the mostly equivalent ```py_eval()```.
+`py_run_string()` function, or the mostly equivalent `py_eval()`.
 `py_eval()` returns the result of evaluating the expression as opposed
 to the dictionary associated with the code execution. Both belong to the
 `reticulate` package.
