@@ -169,7 +169,10 @@ None, True, False
 </tbody>
 </table>
 <h5>Table source: https://cran.r-project.org/web/packages/reticulate/vignettes/calling_python.html</h5>
-<br/> <br/> If all you need is a couple of lines of Python (or you're
+<br/> 
+```r
+```
+If all you need is a couple of lines of Python (or you're
 writing an R script instead of Markdown), an alternative is the
 `py_run_string()` function, or the mostly equivalent `py_eval()`.
 `py_eval()` returns the result of evaluating the expression as opposed
@@ -262,7 +265,7 @@ print(reticulate::dict(py$cc)$keys())
 
     ## dict_keys(['course', 'year'])
 
-<br/> <br/> <h2>Miscellaneous</h2> <br/> Other packages
+<br/> <br/> <h3>Miscellaneous</h3> <br/> Other packages
 that allow you to run Python code from within R are
 [rJython](https://r-forge.r-project.org/projects/rjython/),
 [rPython](https://cran.r-project.org/web/packages/rPython/index.html),
@@ -272,7 +275,7 @@ that allow you to run Python code from within R are
 the objects you create are persistent and can be accessed with the usual
 `py$` later. Type `exit` to return to the R console when you're done.
 This also belongs to the `reticulate` package. <br/> <br/>
-<font size="4">Limitations and troubleshooting</font> <br/> In older
+<h3>Limitations and troubleshooting</h3> <br/> In older
 versions of RStudio (before 1.2.1114), running Python chunks directly in
 the IDE to see output is not supported - they can only be run while
 knitting. To check if your output works, you can use `repl_python()` as
@@ -280,7 +283,7 @@ a workaround. You can also put your code in `py_run_string()` in an R
 chunk. <br/> It's best to use the latest version of RStudio, which
 clears up issues related to loading the right Python environments and
 newly installed Python libraries. <br/> <br/>
-<h2>Sources</h2> <br/> [Reticulate on RStudio's GitHub
+<h3>Sources</h3> <br/> [Reticulate on RStudio's GitHub
 page](https://rstudio.github.io/reticulate/)  
 [Reticulate
 vignettes](https://cran.r-project.org/web/packages/reticulate/vignettes/calling_python.html)  
