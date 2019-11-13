@@ -271,7 +271,12 @@ print(reticulate::dict(py$cc)$keys())
     ## dict_keys(['course', 'year'])
 
 <h3>Miscellaneous</h3> 
-Other packages that allow you to run Python code from within R are: [rJython](https://r-forge.r-project.org/projects/rjython/), [rPython](https://cran.r-project.org/web/packages/rPython/index.html), [SnakeCharmR](https://github.com/asieira/SnakeCharmR), and [PythonInR](https://bitbucket.org/Floooo/pythoninr/).
+Other packages that allow you to run Python code from within R are:
+[rJython](https://r-forge.r-project.org/projects/rjython/)
+
+[rPython](https://cran.r-project.org/web/packages/rPython/index.html)
+[SnakeCharmR](https://github.com/asieira/SnakeCharmR)
+[PythonInR](https://bitbucket.org/Floooo/pythoninr/).
 
 ``` r
 
