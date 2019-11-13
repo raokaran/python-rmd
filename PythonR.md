@@ -279,7 +279,7 @@ that allow you to run Python code from within R are
 `repl_python()` function converts the R console to a Python session, and
 the objects you create are persistent and can be accessed with the usual
 `py$` later. Type `exit` to return to the R console when you're done.
-This also belongs to the `reticulate` package. <br/>
+This also belongs to the `reticulate` package.
 
 <h3>Limitations and troubleshooting</h3> In older
 versions of RStudio (before 1.2.1114), running Python chunks directly in
