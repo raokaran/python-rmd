@@ -168,7 +168,8 @@ None, True, False
 </tr>
 </tbody>
 </table>
-<font size="1">Table source: https://cran.r-project.org/web/packages/reticulate/vignettes/calling_python.html</font>
+<font size="1">Table source:
+<https://cran.r-project.org/web/packages/reticulate/vignettes/calling_python.html></font>
 <br/> <br/> If all you need is a couple of lines of Python (or you're
 writing an R script instead of Markdown), an alternative is the
 `py_run_string()` function, or the mostly equivalent `py_eval()`.
@@ -246,21 +247,21 @@ So the original Python object's details can be accessed as below:
 print(names(py$cc))
 ```
 
-    ## [1] "year"   "course"
+    ## [1] "course" "year"
 
 ``` r
 #R
 print(reticulate::dict(py$cc))
 ```
 
-    ## {'year': 2019, 'course': 'edav'}
+    ## {'course': 'edav', 'year': 2019}
 
 ``` r
 #R
 print(reticulate::dict(py$cc)$keys())
 ```
 
-    ## dict_keys(['year', 'course'])
+    ## dict_keys(['course', 'year'])
 
 <br/> <br/> <font size="4">Miscellaneous</font> <br/> Other packages
 that allow you to run Python code from within R are
