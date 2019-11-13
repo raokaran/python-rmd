@@ -271,7 +271,9 @@ print(reticulate::dict(py$cc)$keys())
     ## dict_keys(['course', 'year'])
 
 <h3>Miscellaneous</h3> 
-Other packages that allow you to run Python code from within R are:<br/>
+Other packages that allow you to run Python code from within R are:
+
+
 [rJython](https://r-forge.r-project.org/projects/rjython/)
 
 [rPython](https://cran.r-project.org/web/packages/rPython/index.html)
@@ -282,6 +284,7 @@ Other packages that allow you to run Python code from within R are:<br/>
 
 ``` r
 
+
 ```
 
 Running the `repl_python()` function converts the R console to a Python session, and
@@ -291,6 +294,7 @@ This also belongs to the `reticulate` package.
 
 <h3>Limitations and troubleshooting</h3> 
 ``` r
+
 
 ```
 In older versions of RStudio (before 1.2.1114), running Python chunks directly in
