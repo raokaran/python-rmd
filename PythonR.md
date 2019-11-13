@@ -227,11 +227,11 @@ sns.distplot(r.mtcars.mpg).set_title("Fuel efficiency")
 ```
 
 <img src="PythonR_files/figure-markdown_github/unnamed-chunk-7-1.png" width="672" />
-<br/> <br/> <h3>Working with dictionaries</h3> <br/>
+<h3>Working with dictionaries</h3> <br/>
 Accessing the keys and values of a Python dictionary from R can be
 confusing at first. This is because Python dictionaries become named
 lists in R.
-
+<br/>
 ``` python
 #Python
 cc = {"course":"edav", "year":2019}
@@ -270,7 +270,7 @@ print(reticulate::dict(py$cc)$keys())
 
     ## dict_keys(['course', 'year'])
 
-<br/> <br/> <h3>Miscellaneous</h3> <br/> Other packages
+<br/> <h3>Miscellaneous</h3> <br/> Other packages
 that allow you to run Python code from within R are
 [rJython](https://r-forge.r-project.org/projects/rjython/),
 [rPython](https://cran.r-project.org/web/packages/rPython/index.html),
@@ -290,23 +290,14 @@ chunk. <br/> It's best to use the latest version of RStudio, which
 clears up issues related to loading the right Python environments and
 newly installed Python libraries. <br/>
 
-<h3>Sources</h3> [Reticulate on RStudio's GitHub
-page](https://rstudio.github.io/reticulate/)  
-[Reticulate
-vignettes](https://cran.r-project.org/web/packages/reticulate/vignettes/calling_python.html)  
-[InfoWorld - How to run Python in
-R](https://www.infoworld.com/article/3340120/how-to-run-python-in-r.html)  
-[Running Python from R with Reticulate by Len
-Kiefer](http://lenkiefer.com/2019/01/28/running-python-from-r-with-reticulate/)  
-[From ‘R vs Python’ to ‘R and Python’ - Towards Data
-Science](https://towardsdatascience.com/from-r-vs-python-to-r-and-python-aa25db33ce17)  
-[Snakes in a
-Package](https://www.mango-solutions.com/blog/snakes-in-a-package-combining-python-and-r-with-reticulate)  
-[R Markdown: The Definitive Guide by Xie, Allaire &
-Grolemund](https://bookdown.org/yihui/rmarkdown/language-engines.html#python)  
-[Listen Data - Run Python from
-R](https://www.listendata.com/2018/03/run-python-from-r.html)  
-[StackOverflow - calling Python methods from
-R](https://stackoverflow.com/questions/51108722/how-to-call-python-method-from-r-reticulate)  
-[StackOverflow - running Python chunks in
-RStudio](https://stackoverflow.com/questions/49503195/reticulate-running-python-chunks-in-rmarkdown)
+<h3>Sources</h3> 
+[Reticulate on RStudio's GitHub page](https://rstudio.github.io/reticulate/)
+[Reticulate vignettes](https://cran.r-project.org/web/packages/reticulate/vignettes/calling_python.html)  
+[InfoWorld - How to run Python in R](https://www.infoworld.com/article/3340120/how-to-run-python-in-r.html)  
+[Running Python from R with Reticulate by Len Kiefer](http://lenkiefer.com/2019/01/28/running-python-from-r-with-reticulate/)  
+[From ‘R vs Python’ to ‘R and Python’ - Towards Data Science](https://towardsdatascience.com/from-r-vs-python-to-r-and-python-aa25db33ce17)  
+[Snakes in a Package](https://www.mango-solutions.com/blog/snakes-in-a-package-combining-python-and-r-with-reticulate)  
+[R Markdown: The Definitive Guide by Xie, Allaire & Grolemund](https://bookdown.org/yihui/rmarkdown/language-engines.html#python)  
+[Listen Data - Run Python from R](https://www.listendata.com/2018/03/run-python-from-r.html)  
+[StackOverflow - calling Python methods from R](https://stackoverflow.com/questions/51108722/how-to-call-python-method-from-r-reticulate)  
+[StackOverflow - running Python chunks in RStudio](https://stackoverflow.com/questions/49503195/reticulate-running-python-chunks-in-rmarkdown)
