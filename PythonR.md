@@ -168,11 +168,10 @@ None, True, False
 </tr>
 </tbody>
 </table>
-<font size="1">Table source:
-<https://cran.r-project.org/web/packages/reticulate/vignettes/calling_python.html></font>
+<font size="1">Table source:https://cran.r-project.org/web/packages/reticulate/vignettes/calling_python.html</font>
 <br/> <br/> If all you need is a couple of lines of Python (or you're
 writing an R script instead of Markdown), an alternative is the
-`py_run_string()` function, or the mostly equivalent `py_eval()`.
+`py_run_string()` function, or the mostly equivalent ```py_eval()```.
 `py_eval()` returns the result of evaluating the expression as opposed
 to the dictionary associated with the code execution. Both belong to the
 `reticulate` package.
@@ -220,7 +219,7 @@ sns.distplot(r.mtcars.mpg).set_title("Fuel efficiency")
 ```
 
 <img src="PythonR_files/figure-markdown_github/unnamed-chunk-7-1.png" width="672" />
-<br/> <br/> <font size="4">Working with dictionaries</font> <br/>
+<br/> <br/> <h2>Working with dictionaries</h2> <br/>
 Accessing the keys and values of a Python dictionary from R can be
 confusing at first. This is because Python dictionaries become named
 lists in R.
@@ -263,7 +262,7 @@ print(reticulate::dict(py$cc)$keys())
 
     ## dict_keys(['course', 'year'])
 
-<br/> <br/> <font size="4">Miscellaneous</font> <br/> Other packages
+<br/> <br/> <h2>Miscellaneous</h2> <br/> Other packages
 that allow you to run Python code from within R are
 [rJython](https://r-forge.r-project.org/projects/rjython/),
 [rPython](https://cran.r-project.org/web/packages/rPython/index.html),
@@ -281,7 +280,7 @@ a workaround. You can also put your code in `py_run_string()` in an R
 chunk. <br/> It's best to use the latest version of RStudio, which
 clears up issues related to loading the right Python environments and
 newly installed Python libraries. <br/> <br/>
-<font size="4">Sources</font> <br/> [Reticulate on RStudio's GitHub
+<h2>Sources</h2> <br/> [Reticulate on RStudio's GitHub
 page](https://rstudio.github.io/reticulate/)  
 [Reticulate
 vignettes](https://cran.r-project.org/web/packages/reticulate/vignettes/calling_python.html)  
